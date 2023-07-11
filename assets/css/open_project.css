@@ -1,0 +1,64 @@
+body{
+    background-image: radial-gradient( circle 971px at -9.5% 0.3%,  rgba(61,67,74,1) 7.9%, rgba(19,21,24,0.99)54%);
+}
+
+
+.project-div{
+    /* border: 2px solid red; */
+    padding: 1%;
+}
+
+.data{
+    border: 2px solid grey;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.data p{
+    margin-top: 2.5vh;
+   
+    color: wheat;
+}
+.data p small{
+    font-size: 1.2rem;
+    padding: 0.5%;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    font-weight: 800;
+    
+}
+.desc{
+    border: 2px solid white;
+    width: 50vh;
+    height: 20vh;
+
+}
+.dp{
+    display: flex;
+    /* flex-direction: row; */
+    border: 2px solid rebeccapurple;
+    height: 200vh;
+}
+
+.issues-list{
+    border: 2px solid wheat;
+    padding: 1%;
+    /* display: flex; */
+    flex-direction: column;
+    /* height: 30vh; */
+    margin-top: 2%;
+}
+.issues-list li{
+    list-style: none;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.filter-box{
+    margin-top: 2%;
+}
+section{
+    color: aliceblue;
+}
