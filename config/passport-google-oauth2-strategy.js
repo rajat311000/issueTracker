@@ -9,7 +9,7 @@ const User=require('../models/user');
 passport.use(new googleStrategy({
     clientID: '236027598562-2kc35qj1nb211vt5qsvmfa2n1mre3utj.apps.googleusercontent.com', // e.g. asdfghjkkadhajsghjk.apps.googleusercontent.com
     clientSecret: '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', // e.g. _ASDFA%KFJWIASDFASD#FAD-
-    callbackURL: "http://localhost:8000/users/auth/google/callback",
+    callbackURL: "https://issue-fl6h.onrender.com/users/auth/google/callback",
     },
     function(accessToken,refreshToken,profile,done){
         User.findOne({email:profile.emails[0].value}).exec(function(err,user){
